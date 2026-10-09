@@ -30,4 +30,17 @@ typedef struct {
     int D1;
 } TwoBit;
 
+typedef struct
+{
+    int Q;
+    int Qbar;
+} SRLatchState;
+
+typedef struct 
+{
+    SRLatchState srlatch;
+    int Q;
+}DlatchState;
+
+
 #endif
