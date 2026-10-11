@@ -59,4 +59,10 @@ typedef struct
     FourBit Q;
 } FourBitRegisterState;
 
+typedef struct
+{
+    FourBitRegisterState registerA;
+    FourBitRegisterState registerB;
+} CPURegisterBankState;
+
 #endif
