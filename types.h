@@ -42,5 +42,21 @@ typedef struct
     int Q;
 }DlatchState;
 
+typedef struct
+{
+    DlatchState master;
+    DlatchState slave;
+    int Q;
+} DFlipFlopState;
+
+typedef struct
+{
+    DFlipFlopState bit0;
+    DFlipFlopState bit1;
+    DFlipFlopState bit2;
+    DFlipFlopState bit3;
+
+    FourBit Q;
+} FourBitRegisterState;
 
 #endif
