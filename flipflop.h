@@ -5,6 +5,6 @@
 #include "latches.h"
 
 DFlipFlopState InitDFlipFlop(int initialQ);
-DFlipFlopState DFlipFLop(DFlipFlopState state, int D,int CLK)
+DFlipFlopState DFlipFLop(DFlipFlopState state, int D,int CLK);
 
 #endif
