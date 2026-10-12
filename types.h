@@ -7,23 +7,17 @@ typedef struct {
 } AdderResult;
 
 typedef struct {
-    int D0;
-    int D1;
-    int D2;
     int D3;
+    int D2;
+    int D1;
+    int D0;
 } FourBit;
 
 typedef struct 
 {
-    FourBit sum;
+    FourBit Num;
     int carry;
 } FourBitResult;
-
-typedef struct {
-    FourBit result;
-    int carry;
-    int zero;
-} AluResult;
 
 typedef struct {
     int D0;

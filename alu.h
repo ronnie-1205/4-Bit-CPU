@@ -5,6 +5,6 @@
 #include  "adder.h"
 #include "gates.h"
 
-AluResult alu(FourBit a, FourBit b, TwoBit s);
+FourBitResult alu(FourBit a, FourBit b, TwoBit s);
 
 #endif

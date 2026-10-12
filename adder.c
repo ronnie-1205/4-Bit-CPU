@@ -35,10 +35,10 @@ FourBitResult FourBitAdder(FourBit a, FourBit b, int carry_in)
     FA2 = FullAdder(a.D2, b.D2, FA1.carry);
     FA3 = FullAdder(a.D3, b.D3, FA2.carry);
 
-    result.sum.D0 = FA0.sum;
-    result.sum.D1 = FA1.sum;
-    result.sum.D2 = FA2.sum;
-    result.sum.D3 = FA3.sum;
+    result.Num.D0 = FA0.sum;
+    result.Num.D1 = FA1.sum;
+    result.Num.D2 = FA2.sum;
+    result.Num.D3 = FA3.sum;
 
     result.carry = FA3.carry;
 
