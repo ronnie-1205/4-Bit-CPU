@@ -25,8 +25,8 @@ FourBit FourBitOR(FourBit a, FourBit b)
 AluResult alu(FourBit a, FourBit b, TwoBit s)
 {
     AluResult result;
-    FourBitResult add = FourBitAdder(a,b);
-    FourBitResult sub = FourBitSubtracter(a,b);
+    FourBitResult add = FourBitAdder(a, b, 0);
+    FourBitResult sub = FourBitSubtracter(a, b, 0);
     FourBit and = FourBitAND(a,b);
     FourBit or = FourBitOR(a,b);
 

@@ -28,3 +28,4 @@ FourBit FourBit41Mux(FourBit a, FourBit b, FourBit c, FourBit d, int s1, int s2)
 
     return result;
 }
+
