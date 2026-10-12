@@ -52,7 +52,7 @@ FourBit FourBit161Mux(Muxinput4Bit16_1 input, FourBit s)
     C = FourBit41Mux(input.I8, input.I9, input.I10, input.I11, s.D0, s.D1);
     D = FourBit41Mux(input.I12, input.I13, input.I14, input.I15, s.D0, s.D1);
 
-    result = OneBit41Mux(A,B,C,D,s.D2,s.D3);
+    result = FourBit41Mux(A,B,C,D,s.D2,s.D3);
     return result;
 }
 
